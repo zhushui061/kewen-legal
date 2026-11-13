@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>科文中医 · 技术支持</title>
+<style>
+  :root{color-scheme:light}
+  body{margin:0;background:#f4f8fc;color:#1c2733;font:16px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+  .wrap{max-width:780px;margin:0 auto;padding:36px 22px 80px}
+  h1{font-size:28px;margin:0 0 4px}
+  .sub{color:#5f6b7a;font-size:13.5px;margin-bottom:24px}
+  h2{font-size:19px;margin:30px 0 8px;color:#1f4f86}
+  .card{background:#fff;border:1px solid #dbe6f2;border-radius:14px;padding:20px 22px;margin:16px 0}
+  li{margin:6px 0}
+  a{color:#1f4f86}
+  .q{font-weight:600;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>科文中医 · 技术支持</h1>
+  <div class="sub">版本 1.6.1 · 2026 年 11 月</div>
+
+  <div class="card">
+    <p><b>联系我们：</b><a href="mailto:1747529039@qq.com">1747529039@qq.com</a><br>
+    请在邮件里附上：设备型号、系统版本、App 版本（设置页可见）、问题截图。工作日 24 小时内回复。</p>
+    <p><b>隐私政策：</b><a href="./privacy.html">查看隐私政策</a></p>
+  </div>
+
+  <h2>常见问题</h2>
+
+  <div class="q">1. 为什么第一次打开要等几秒？</div>
+  <p>App 要在本地解压 128 部古籍（约 28MB）并建立索引，首次约 3–10 秒，之后启动很快。</p>
+
+  <div class="q">2. 搜不到某味药 / 某个词怎么办？</div>
+  <p>在原文上长按选字，弹出菜单里选「药名 / 词条 / 别名」，即可入库；之后所有书都能识别这个写法。</p>
+
+  <div class="q">3. AI 功能为什么用不了？</div>
+  <p>AI 需要你自己填写兼容 OpenAI 接口的服务地址与 API Key（例如 DeepSeek、通义、Kimi，或本机部署的 Ollama）。不填也能正常使用检索、辨证、星图。</p>
+
+  <div class="q">4. AI 提示“只返回思考过程”怎么办？</div>
+  <p>是模型的思考用完了 tokens。到「设置」把「最大 tokens」调大（建议 8000 以上），或关闭「深度思考」。</p>
+
+  <div class="q">5. 切到别的 App 回来，工作流停了？</div>
+  <p>iOS 会在后台挂起网络请求。回到 App 后会自动继续；若仍停住，点一次「一键工作流」恢复。</p>
+
+  <div class="q">6. 换手机后数据怎么迁移？</div>
+  <p>旧设备：顶栏「导出数据包」保存文件；新设备：装上 App 后「导入数据包」。</p>
+
+  <div class="q">7. 会不会上传我的医案？</div>
+  <p>不会。检索与数据都在本机；只有你主动使用 AI 功能时，所选原文才会发给你自己配置的模型服务商。</p>
+
+  <h2>医疗声明</h2>
+  <p>本软件是中医古籍文献检索工具，展示古籍原文与出处，不提供诊断、处方或治疗建议。临床决策请以执业医师的判断为准。</p>
+</div>
+</body>
+</html>
